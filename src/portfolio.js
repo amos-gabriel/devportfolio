@@ -20,26 +20,27 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Amos Gabriel",
+  title: "Salut, ici Amos",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Développeur logiciel Full Stack passionné 🚀 ayant une expérience de la construction d'applications Web et mobiles avec JavaScript / Reactjs / Nodejs / React Native et quelques autres bibliothèques et frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/18NL1Z0MK2pBn0SabLoWcaWJgcBX64Jub/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/amos-gabriel",
+  linkedin: "https://www.linkedin.com/in/amos-koffi/",
+  gmail: "kksivitra@gmail.com",
+  gitlab: "https://gitlab.com/killian-debug",
+  facebook: "https://www.facebook.com/amosgabriel.dev",
+  instagram: "https://www.instagram.com/amosgabriel.dev/",
+ // medium: "https://medium.com/@saadpasta",
+ // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,15 +49,15 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Ce que je fais",
+  subTitle: "DEVELOPPEUR EN QUETE D'EXCELLENCE POUR DES EXPERIENCES WEB ET MOBILE EXTRAORDINAIRE",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Créer des expériences utilisateur réactives et engageantes sur toutes vos plateformes digitales."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Création de services backend (serveurs, algorythmes)"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Interconnexion avec des services tiers, IA, WhatsApp, N8N, etc..."
     )
   ],
 
@@ -89,8 +90,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "figma",
+      fontAwesomeClassname: "fab fa-figma"
     },
     {
       skillName: "npm",
@@ -101,16 +102,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "wordpress",
+      fontAwesomeClassname: "fab fa-wordpress"
     },
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git-alt"
     },
     {
       skillName: "docker",
@@ -126,23 +127,26 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
+      schoolName: "Ecole Supérieur Polytechnique - UCAD, Dakar",
       logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      subHeader: "Master en Système Logiciel et Système d'Information",
+      duration: "Septembre 2024 - Août 2026",
+      desc: "Deux années d'études en master. Autodidacte en graphisme et 3D",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Master professionnel alliant programmation, réseau et intelligence artificielle",
+        "Production de plusieurs projets professionnels et éducatifs"
       ]
     },
     {
-      schoolName: "Stanford University",
+      schoolName: "UATM Gasa formation - Bénin",
       logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      subHeader: "Licence en Système d'Information et Logiciel",
+      duration: "Septembre 2019 - April 2023",
+      desc: "A suivi des cours sur le génie logiciel, la sécurité web, les systèmes d'exploitation, ...",
+      descBullets: [
+        "Acquisition de connaissances de base",
+        "Déjà plusieurs projets clients réalisé dès la licence"
+      ]
     }
   ]
 };
@@ -154,15 +158,15 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "90%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "70%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
