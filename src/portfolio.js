@@ -34,7 +34,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/amos-gabriel",
-  linkedin: "https://www.linkedin.com/in/amos-koffi/",
+  linkedin: "https://www.linkedin.com/in/amos-gabrieldev/",
   gmail: "kksivitra@gmail.com",
   gitlab: "https://gitlab.com/killian-debug",
   facebook: "https://www.facebook.com/amosgabriel.dev",
@@ -50,12 +50,12 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "Ce que je fais",
-  subTitle: "DEVELOPPEUR EN QUETE D'EXCELLENCE POUR DES EXPERIENCES WEB ET MOBILE EXTRAORDINAIRE",
+  subTitle: "DEVELOPPEUR EN QUETE D'EXCELLENCE POUR DES EXPERIENCES WEB ET MOBILE EXTRAORDINAIRES",
   skills: [
     emoji(
-      "⚡ Créer des expériences utilisateur réactives et engageantes sur toutes vos plateformes digitales."
+      "⚡ Création d'expériences utilisateur réactives et engageantes sur toutes vos plateformes digitales."
     ),
-    emoji("⚡ Création de services backend (serveurs, algorythmes)"),
+    emoji("⚡ Création de services backend (serveurs, algorithmes)"),
     emoji(
       "⚡ Interconnexion avec des services tiers, IA, WhatsApp, N8N, etc..."
     )
@@ -127,7 +127,7 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Ecole Supérieur Polytechnique - UCAD, Dakar",
+      schoolName: "Ecole Supérieure Polytechnique - UCAD, Dakar",
       logo: require("./assets/images/harvardLogo.png"),
       subHeader: "Master en Système Logiciel et Système d'Information",
       duration: "Septembre 2024 - Août 2026",
@@ -145,7 +145,7 @@ const educationInfo = {
       desc: "A suivi des cours sur le génie logiciel, la sécurité web, les systèmes d'exploitation, ...",
       descBullets: [
         "Acquisition de connaissances de base",
-        "Déjà plusieurs projets clients réalisé dès la licence"
+        "Déjà plusieurs projets clients réalisés dès la licence"
       ]
     }
   ]
@@ -165,8 +165,8 @@ const techStack = {
       progressPercentage: "90%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "70%"
+      Stack: "Programmation",
+      progressPercentage: "90%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -178,29 +178,33 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Admin Système",
+      company: "SSI-AO",
+      companylogo: require("./assets/images/ssiaoLogo.png"),
+      date: "Janvier 2023 – À auourd'hui",
+      desc: "J'assure la maintenance et l'amélioration du Système d'Information utilisé par l'ONG SSI-AO depuis maintenant 3 ans. www.ssiao.org.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Développement de logiciel et de site web",
+        "Sécurité, protection et mise à jour des serveurs et ordinateurs"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Développeur Backend",
+      company: "BFC Capital",
+      companylogo: require("./assets/images/bfcLogo.png"),
+      date: "Mars 2025 – May 2025",
+      desc: "Développement d'un serveur de reporting et d'affiliation derrière une application (PayCash).",
+      descBullets: [
+        "Application bancaire",
+        "Sécurité et maintenabilité"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Lead - Développeur Full-Stack",
+      company: "WescanGift",
+      companylogo: require("./assets/images/wsgLogo.png"),
+      date: " - ",
+      desc: "Les QR codes de WSG redirigent vers des expériences personnalisées (promos, jeux, landing pages), avec un suivi en temps réel des performances. La plateforme est conçue pour être flexible, intégrable et orientée conversion."
     }
   ]
 };
@@ -216,7 +220,7 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "Projets marquants",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
@@ -243,16 +247,16 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Réalisations et certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Réalisations, certifications, lettres de récompenses et quelques trucs sympas que j'ai faits !",
 
   achievementsCards: [
     {
@@ -304,7 +308,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -328,7 +332,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -347,7 +351,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -360,34 +364,34 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
 const resumeSection = {
-  title: "Resume",
-  subtitle: "Feel free to download my resume",
+  title: "Curriculum vitae",
+  subtitle: "N'hésitez pas à télécharger mon CV",
 
   // Please Provide with Your Podcast embeded Link
   display: true // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Me contacter ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Discuter d'un projet ou simplement dire bonjour ? Ma boîte de réception est ouverte à tous.",
+  number: "+229 68403520",
+  email_address: "kksivitra@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "amosgabrieldev", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
