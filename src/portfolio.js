@@ -23,7 +23,7 @@ const greeting = {
   username: "Amos Gabriel",
   title: "Salut, ici Amos",
   subTitle: emoji(
-    "Développeur logiciel Full Stack passionné 🚀 ayant une expérience de la construction d'applications Web et mobiles avec JavaScript / Reactjs / Nodejs / React Native et quelques autres bibliothèques et frameworks."
+    "Développeur logiciel Full Stack passionné 🚀 ayant une expérience de la construction d'applications web et mobiles avec JavaScript / Reactjs / Nodejs / React Native et quelques autres bibliothèques et frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/18NL1Z0MK2pBn0SabLoWcaWJgcBX64Jub/view?usp=sharing", // Set to empty to hide the button
@@ -39,10 +39,10 @@ const socialMediaLinks = {
   gitlab: "https://gitlab.com/killian-debug",
   facebook: "https://www.facebook.com/amosgabriel.dev",
   instagram: "https://www.instagram.com/amosgabriel.dev/",
- // medium: "https://medium.com/@saadpasta",
- // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
+// medium: "https://medium.com/@saadpasta",
+// stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+// Instagram, Twitter and Kaggle are also supported in the links!
+// To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
 };
 
@@ -128,7 +128,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Ecole Supérieure Polytechnique - UCAD, Dakar",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/esplogo.png"),
       subHeader: "Master en Système Logiciel et Système d'Information",
       duration: "Septembre 2024 - Août 2026",
       desc: "Deux années d'études en master. Autodidacte en graphisme et 3D",
@@ -139,7 +139,7 @@ const educationInfo = {
     },
     {
       schoolName: "UATM Gasa formation - Bénin",
-      logo: require("./assets/images/stanfordLogo.png"),
+      logo: require("./assets/images/uatmlogo.png"),
       subHeader: "Licence en Système d'Information et Logiciel",
       duration: "Septembre 2019 - April 2023",
       desc: "A suivi des cours sur le génie logiciel, la sécurité web, les systèmes d'exploitation, ...",
@@ -180,7 +180,7 @@ const workExperiences = {
     {
       role: "Admin Système",
       company: "SSI-AO",
-      companylogo: require("./assets/images/ssiaoLogo.png"),
+      companylogo: require("./assets/images/ssiaologo.png"),
       date: "Janvier 2023 – À auourd'hui",
       desc: "J'assure la maintenance et l'amélioration du Système d'Information utilisé par l'ONG SSI-AO depuis maintenant 3 ans. www.ssiao.org.",
       descBullets: [
@@ -221,33 +221,69 @@ const openSource = {
 
 const bigProjects = {
   title: "Projets marquants",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "QUELQUES STARTUPS ET ENTREPRISES QUE J'AI AIDÉES À CRÉER LEUR TECHNOLOGIE",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/wsgLogo.png"),
+      projectName: "WescanGift",
+      projectDesc: "Nos QR codes intelligents connectent les entreprises avec les clients à travers des expériences engageantes et gratifiantes.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Visiter le site",
+          url: "https://app.wescan.gift/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/lclogo.png"),
+      projectName: "LauraCosmétique",
+      projectDesc: "Laura Cosmétique est l’un des géants de l’esthétique au Bénin, dirigé par des mains de velours. Mme Laura CEO de LC EMPIRE a fait de la beauté son objectif N°1 pour elle mais aussi pour toute les femmes et les hommes.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Visiter le site",
+          url: "https://lauracosmetique.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/maejtlogo.png"),
+      projectName: "MAEJT",
+      projectDesc: "Nous sommes le seul acteur gouverné par des enfants et des jeunes travaillant pour des enfants et des jeunes, et nous nous attaquons à la confluence de la pauvreté, de l’exploitation et des abus sous toutes leurs formes.",
+      footerLink: [
+        {
+          name: "Visiter le site",
+          url: "https://maejt.org/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/kelvinlogo.png"),
+      projectName: "Le blog de Mr Pastèque",
+      projectDesc: "Je crée des produits digitaux et industriels pour des particuliers et des entreprises en Afrique, puis je m’assure qu’ils rencontrent leur marché et soient rentables",
+      footerLink: [
+        {
+          name: "Visiter le site",
+          url: "https://kelvinagentk.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/wsgLogo.png"),
+      projectName: "WescanGift - Url To QrCode",
+      projectDesc: "Extension Microsoft Edge et Chrome pour transformer les urls de votre navigateur en qrcode pour continuer la navigation sur votre mobile.",
+      footerLink: [
+        {
+          name: "Visiter le site",
+          url: "https://microsoftedge.microsoft.com/addons/detail/wescangift-url-to-qr-co/gdancjkpkjcmgecekbeooffjgabmpgaf"
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -316,23 +352,23 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "Avec l'amour de voir les projets réalisés et perdurés sur le long term, j'analyse, critique, écris et partage aux autres ce que j'ai appris.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      title: "Gagnez un t-shirt Google Assistant et 200 $ de crédits Google Cloud",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Êtes-vous prêt à gagner $200 et un t-shirt Google Assistant en créant une action Google Assistant en moins de 30 minutes ?"
     },
     {
       url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      title: "React est le meilleur ?",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "React est une bibliothèque JavaScript pour construire des interfaces utilisateur. Elle est maintenue par Facebook et une communauté de développeurs et d'entreprises individuels."
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
