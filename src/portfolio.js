@@ -139,7 +139,7 @@ const educationInfo = {
     },
     {
       schoolName: "UATM Gasa formation - Bénin",
-      logo: require("./assets/images/uatm_gasa_logo.png"),
+      logo: require("./assets/images/uatm_gasa_logo.jpg"),
       subHeader: "Licence en Système d'Information et Logiciel",
       duration: "Septembre 2019 - April 2023",
       desc: "A suivi des cours sur le génie logiciel, la sécurité web, les systèmes d'exploitation, ...",
@@ -191,7 +191,7 @@ const workExperiences = {
     {
       role: "Développeur Backend",
       company: "BFC Capital",
-      companylogo: require("./assets/images/bfcLogo.png"),
+      companylogo: require("./assets/images/bfcLogo.jpg"),
       date: "Mars 2025 – May 2025",
       desc: "Développement d'un serveur de reporting et d'affiliation derrière une application (PayCash).",
       descBullets: [
