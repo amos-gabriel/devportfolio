@@ -1,4 +1,4 @@
-@import "../../_globalColor";
+@use "../../_globalColor" as colors;
 
 .dev-icons {
   padding-left: 0;
@@ -16,16 +16,16 @@
 }
 
 .software-skill-inline > i {
-  color: $subTitle;
+  color: colors.$subTitle;
 }
 
 .software-skill-inline > i:hover {
-  color: $skillsColor;
+  color: colors.$skillsColor;
 }
 .software-skill-inline > p {
-  color: $subTitle;
+  color: colors.$subTitle;
   font-size: 10px;
 }
 .software-skill-inline > i:hover ~ p {
-  color: $skillsColor;
+  color: colors.$skillsColor;
 }

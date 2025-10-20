@@ -1,4 +1,4 @@
-@import "../../_globalColor";
+@use "../../_globalColor" as colors;
 
 /*React-headroom*/
 .headroom-wrapper {
@@ -8,20 +8,20 @@
 /* header */
 
 .dark-menu {
-  background-color: $darkBackground !important;
-  color: $textColorDark;
+  background-color: colors.$darkBackground !important;
+  color: colors.$textColorDark;
 }
 
 .dark-menu li a {
-  color: $textColorDark !important;
+  color: colors.$textColorDark !important;
 }
 
 .dark-menu li a:hover {
-  background-color: $buttonColor !important;
+  background-color: colors.$buttonColor !important;
 }
 
 .header {
-  background-color: $lightBackground1;
+  background-color: colors.$lightBackground1;
   max-width: 100%;
   padding: 15px 20px;
   margin: 0px auto;
@@ -35,19 +35,19 @@
 }
 
 .grey-color {
-  color: $subTitle;
+  color: colors.$subTitle;
 }
 
 .header li a {
   display: block;
   padding: 15px 20px;
-  color: $textColor;
+  color: colors.$textColor;
   text-decoration: none;
 }
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: $headerHoverBG;
+  background-color: colors.$headerHoverBG;
 }
 
 .header .logo {
@@ -88,7 +88,7 @@
 }
 
 .header .menu-icon .navicon {
-  background: $iconBackground;
+  background: colors.$iconBackground;
   display: block;
   height: 2px;
   position: relative;
@@ -97,12 +97,12 @@
 }
 
 .header .menu-icon .navicon-dark {
-  background: $textColorDark;
+  background: colors.$textColorDark;
 }
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: $iconBackground;
+  background: colors.$iconBackground;
   content: "";
   display: block;
   height: 100%;
@@ -113,7 +113,7 @@
 
 .header .menu-icon .navicon-dark:before,
 .header .menu-icon .navicon-dark:after {
-  background: $textColorDark !important;
+  background: colors.$textColorDark !important;
   content: "";
   display: block;
   height: 100%;

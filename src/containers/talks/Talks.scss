@@ -1,4 +1,4 @@
-@import "../../_globalColor";
+@use "../../_globalColor" as colors;
 
 .talk-header-title {
   font-size: 56px;
@@ -13,7 +13,7 @@
 }
 
 .subTitle {
-  color: $subTitle;
+  color: colors.$subTitle;
 }
 
 @media (max-width: 768px) {

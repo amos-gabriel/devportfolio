@@ -7,7 +7,7 @@ import StyleContext from "../../contexts/StyleContext";
 
 const renderLoader = () => <Loading />;
 const cantDisplayError =
-  "<div className='centerContent'><h2>Can't load? Check privacy protection settings</h2></div>";
+  "<div className='centerContent'><h2>Impossible à charger ? Vérifier les paramètres de protection de la vie privée</h2></div>";
 
 function timeOut() {
   setTimeout(function () {
@@ -25,7 +25,7 @@ export default function Twitter() {
     return null;
   }
   if (!twitterDetails.userName) {
-    console.error("Twitter username for twitter section is missing");
+    console.error("Le nom d'utilisateur Twitter pour la section Twitter est manquant");
   }
   if (twitterDetails.userName) {
     return (

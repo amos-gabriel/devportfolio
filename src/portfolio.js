@@ -39,7 +39,7 @@ const socialMediaLinks = {
   gitlab: "https://gitlab.com/killian-debug",
   facebook: "https://www.facebook.com/amosgabriel.dev",
   instagram: "https://www.instagram.com/amosgabriel.dev/",
- // medium: "https://medium.com/@saadpasta",
+  medium: "https://medium.com/@amosgabriel.dev",
  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -128,7 +128,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Ecole Supérieure Polytechnique - UCAD, Dakar",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/esp_logo.jpg"),
       subHeader: "Master en Système Logiciel et Système d'Information",
       duration: "Septembre 2024 - Août 2026",
       desc: "Deux années d'études en master. Autodidacte en graphisme et 3D",
@@ -139,7 +139,7 @@ const educationInfo = {
     },
     {
       schoolName: "UATM Gasa formation - Bénin",
-      logo: require("./assets/images/stanfordLogo.png"),
+      logo: require("./assets/images/uatm_gasa_logo.png"),
       subHeader: "Licence en Système d'Information et Logiciel",
       duration: "Septembre 2019 - April 2023",
       desc: "A suivi des cours sur le génie logiciel, la sécurité web, les systèmes d'exploitation, ...",
@@ -165,8 +165,8 @@ const techStack = {
       progressPercentage: "90%"
     },
     {
-      Stack: "Programmation",
-      progressPercentage: "90%"
+      Stack: "Design et 3D",
+      progressPercentage: "70%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -388,7 +388,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "amosgabrieldev", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer

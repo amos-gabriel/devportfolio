@@ -1,15 +1,20 @@
 import React from "react";
 import "./Progress.scss";
 import {illustration, techStack} from "../../portfolio";
-import {Fade} from "react-reveal";
+import {motion} from "framer-motion";
 import Build from "../../assets/lottie/build";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 
 export default function StackProgress() {
   if (techStack.viewSkillBars) {
     return (
-      <Fade bottom duration={1000} distance="20px">
-        <div className="skills-container">
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
+        viewport={{ once: true }}
+        className="skills-container"
+      >
           <div className="skills-bar">
             <h1 className="skills-heading">Mes Compétences</h1>
             {techStack.experience.map((exp, i) => {
@@ -37,8 +42,7 @@ export default function StackProgress() {
               />
             )}
           </div>
-        </div>
-      </Fade>
+      </motion.div>
     );
   }
   return null;
